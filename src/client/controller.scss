@@ -1,0 +1,20 @@
+.controller {
+    background-color: gray;
+
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+
+    .row {
+        max-width: 1000px;
+        display: flex;
+
+        button {
+            min-width: 80px;
+            min-height: 80px;
+            width: 100%;
+            height: 100%;
+            border-radius: 0;
+        }
+    }
+}

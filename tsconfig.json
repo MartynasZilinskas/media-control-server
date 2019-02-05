@@ -1,0 +1,22 @@
+{
+    "compileOnSave": false,
+    "compilerOptions": {
+        "jsx": "react",
+        "rootDir": "./src",
+        "sourceMap": true,
+        "declaration": false,
+        "moduleResolution": "node",
+        "esModuleInterop": true,
+        "noEmitHelpers": true,
+        "importHelpers": true,
+        "target": "es5",
+        "lib": ["es6", "dom"],
+        "plugins": [
+            {
+                "name": "tslint-language-service",
+                "alwaysShowRuleFailuresAsWarnings": true,
+                "ignoreDefinitionFiles": true
+            }
+        ]
+    }
+}
