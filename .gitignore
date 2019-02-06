@@ -266,3 +266,4 @@ main.js
 app-builds/
 wwwroot
 .server
+app.exe

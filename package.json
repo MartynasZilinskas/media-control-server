@@ -8,22 +8,24 @@
         "watch:client": "webpack-dev-server",
         "build": "npm-run-all -p build:server build:client",
         "watch": "npm-run-all -p watch:server watch:client",
-        "start": "node .server/app.js"
+        "start": "node .server/app.js",
+        "pack": "nexe .server/app.js -r \".server/**/*\""
     },
     "license": "MIT",
     "devDependencies": {
         "@simplrjs/webpack": "0.1.0-alpha.14",
+        "@types/react": "^16.4.11",
+        "@types/react-dom": "^16.0.7",
         "@types/webpack": "^4.4.10",
+        "nexe": "^2.0.0-rc.34",
+        "npm-run-all": "^4.1.5",
         "simplr-tslint": "^1.0.0-alpha.14",
         "tslint": "^5.11.0",
         "tslint-language-service": "^0.9.9",
         "typescript": "^3.0.1",
         "webpack": "^4.16.5",
         "webpack-cli": "^3.1.0",
-        "@types/react": "^16.4.11",
-        "@types/react-dom": "^16.0.7",
-        "webpack-dev-server": "^3.1.5",
-        "npm-run-all": "^4.1.5"
+        "webpack-dev-server": "^3.1.5"
     },
     "dependencies": {
         "express": "^4.16.4",
